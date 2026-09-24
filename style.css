@@ -1,0 +1,87 @@
+body{
+    background-color: mediumpurple;
+    color: white;
+}
+#meow {
+    background-color: blueviolet;
+    color: white;
+    border: 3px;
+    border: dashed;
+    padding: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.max {
+    background-color: blueviolet;
+    color: white;
+    border: 3px;
+    border: dashed;
+    padding: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meow2 {
+    background-color: darkslateblue;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.meow3 {
+    background-color: darkslateblue;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    margin: 25px;
+}
+img {
+    width: 550px;
+    height: 350px;
+}
+a[href*="frhsd.com"] {
+    color: lime;
+}
+ul>li:first-child {
+    color: fuchsia;
+}
+a:visited {
+    color:beige;
+}
+li:hover {
+    background-color: navy;
+}
+div {
+    li {
+        border: 3px;
+        border:solid;
+        border-radius: 10px;
+        padding: 10px;
+    }
+}
+li + li {
+    border-color: darkviolet;
+}
+#coryxkenshin {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+    img {
+        grid-column: span 3;
+        grid-row: span 3;
+        height: 100%;
+        width: 100%;
+    }
+    p {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+}
