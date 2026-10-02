@@ -25,22 +25,13 @@ body{
     align-items: center;
     justify-content: center;
 }
-.meow2 {
-    background-color: darkslateblue;
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 16px;
-    margin: 25px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
 .meow3 {
     background-color: darkslateblue;
     color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: 16px;
     margin: 25px;
+    width: fit-content;
 }
 img {
     width: 550px;
@@ -84,4 +75,39 @@ li + li {
         grid-column: span 2;
         grid-row: span 2;
     }
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rebeccapurple;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+input[type="text"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+    padding: 8px;
+    margin: 10px;
+}
+#title {
+    text-align: center;
 }

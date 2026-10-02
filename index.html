@@ -7,19 +7,17 @@
 </head>
 <link rel = "stylesheet" href = "style.css">
 <body onload="loading()">
-    <p class="max">
-        Hello World!
-    </p>
+    <h1 id="title">  Welcome to <abbr title="Honors Computer Science Senior Capstone: Web, Data, and AI"> HCSSCWDAI </abbr> </h1>
     <img id="meow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr7O0R5h0sX4H_Dx4xFtl736WYv2KHbGqsQXYHe73-eQ&s=10">
     <div>
         <ol>
-            <li class="meow2">
+            <li>
                 I like to watch F1 and GT3
             </li>
-            <li class="meow2">
+            <li>
                 I like to Hangout with my friends
             </li>
-            <li class="meow2">
+            <li>
                 I like to Read books, like shogun :)
             </li>
         </ol>
@@ -38,18 +36,41 @@
             </li>
         </ul>
     </div>
-    <a href="https://www.frhsd.com"> frhsd.com</a>
+    <a class="links" href="https://www.frhsd.com"> frhsd.com </a>
+    <a class="links" href="https://www.youtube.com/watch?v=9GaMD3FhTIQ"> Nurburgring Full Lap </a>
+    <table class="table" border="3">
+        <tr>
+            <th bgcolor="#483d8b"> Driver Name</th>
+            <th bgcolor="#483d8b"> GT or F1 Team</th>
+        </tr>
+        <tr>
+            <th bgcolor="#7b68ee"> Max Verstappen </th>
+            <th bgcolor="#7b68ee"> Verstappen Com Racing, ORBR </th>
+        </tr>
+        <tr>
+            <th bgcolor="#7b68ee"> Kelvin Van Der Linde </th>
+            <th bgcolor="#7b68ee"> Team WRT </th>
+        </tr>
+        <tr>
+            <th bgcolor="#7b68ee"> Dani Juncadella </th>
+            <th bgcolor="#7b68ee"> Verstappen Com Racing </th>
+        </tr>
+    </table>
     <div id="coryxkenshin">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdilQFB9SGKRdn5v4hl1ENuBLQB72BNPUh0sKMmGq1OA&s=10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpavkzbQNEs5M8bDXJvNqnMYcYbRvXd6Y82uolxmPhAA&s=10">
         <p>
-            Only by living at the edge of death can you understand the indescribable joy of life.
+            "If I have to drive this car, last year's car, or even a shopping trolley, I'll drive it to the limit of what a shopping trolley can do."
         </p>
         <a href="#meow"> internal link </a>
-        <a href="https://www.youtube.com/CoryxKenshin"> external link </a>
+        <a href="https://www.youtube.com/watch?v=fMzwUd6Oj8Q"> external link </a>
     </div>
-    <input type="text">
-    <button onclick = "clicked()">Click Me</button>
-    <button id="hello" onclick = "localUp()"> 0 </button>
-    <button id="maxy" onclick = "sessionUp()"> 0 </button>
+    <div class="buttons">
+        <label>
+            <input type="text">
+        </label>
+        <button onclick = "clicked()"> Change Title </button>
+        <button id="hello" onclick = "localUp()"> 0 </button>
+        <button id="maxy" onclick = "sessionUp()"> 0 </button>
+    </div>
 </body>
 </html>
